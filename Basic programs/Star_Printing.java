@@ -82,7 +82,7 @@ public class Star_Printing
 	System.out.println("-----------------------------------------------");
 	System.out.println("Diamond Pattern");
 
-	for(int i=1;i<n;i++)
+	for(int i=1;i<n;i++) //reduce one row
 	{
 		for(int j=i;j<=n-1;j++)
 		System.out.print("  "); //first print decreasing triangle of space(two spaces)
